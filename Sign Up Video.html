@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        video{
+            position: fixed;
+            z-index: -1;
+            right: 0;
+            bottom: 0;
+        }
+        .content{
+            color: #fff;
+            margin: 5% auto;
+            width: 700px;
+            height: 470px;
+            border-radius: 25px;
+            background-color: rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 17px #fff;
+            text-align: center;   
+        }
+        .content button:hover{
+            box-shadow: 2px 2px 5px #fff;
+            border-radius: 25px;
+            background-color: rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #fff;
+        }
+        .content input:hover{
+            box-shadow: 2px 2px 5px #fff;
+            border-radius: 25px;
+            background-color: rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #fff;
+        }
+        .content select:hover{
+            box-shadow: 2px 2px 5px #fff;
+            border-radius: 25px;
+            background-color: rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #fff;
+        }
+        .content textarea:hover{
+            box-shadow: 2px 2px 5px #fff;
+            border-radius: 25px;
+            background-color: rgba(0, 0, 0, 0.1);
+            text-align: center;
+            color: #fff;
+        }    
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="Background 2.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <h1>Sign Up</h1>
+    <form>
+        <label for="first name">First Name :</label>
+        <input type="text" id="first name" placeholder="First Name" size="25">
+        <label for="last name">Last Name :</label>
+        <input type="text" id="last name" placeholder="Last Name" size="25">
+        <br>
+        <br>
+        <label for="email">Email Address :</label>
+        <input type="email" id="email address" placeholder="abc@gmail.com" size="64">
+        <br>
+        <br>
+        <label for="password">Password :</label>
+        <input type="password" id="password" placeholder="Password" size="22">
+        <label for="password">Conferm Password :</label>
+        <input type="password" id="password" placeholder="Conferm Password" size="22">
+        <br>
+        <br>
+        <label for="phone number">Phone Number :</label>
+        <input type="phone" placeholder="92311-********" size="12">
+        <label for="Birthday">Date of Birth :</label>
+        <input type="date" id="date of birth" placeholder="Date Of Birth">
+        <label for="gender">Gender :</label>
+        <select>
+            <option>Select...</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <br>
+        <br>
+        <label for="Address">Address :</label>
+        <textarea rows="2" cols="68" placeholder="Address"></textarea>
+        <br>
+        <br>
+        <label for="Description">Description :</label>
+        <textarea rows="4" cols="65" placeholder="Description"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" id="checkbox">
+        <label for="Checkbox">I agree to these <a href="#">Terms & Conditions</a></label>
+        <br>
+        <br>
+        <button><a href="Login Video.html">Sign Up</a></button>
+        <br>
+        <br>
+        <label for="memer">Already a member? <a href="Login Video.html">Login Here</a></label>
+    </form>
+    </div>
+    
+</body>
+</html>
